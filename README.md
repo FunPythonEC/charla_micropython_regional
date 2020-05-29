@@ -1,13 +1,24 @@
-## Charla "MicroPython: Lenguaje Python para microcontroladores"
-By: José Luis Laica Cornejo
+<html>
+    <head> <title>ESP8266</title> </head>
+    <body> 
+	<div>
+        Hello from uPython web on ESP8266
+	</div>
 
-#### Evento Co-Organizado con:
+	<form method="GET">
+	    <div>
+        	<label for="name">SSID:</label>
+        	<input type="text" name="Nred" />
+	    </div>
+	    <div>
+        	<label for="name">PASS:</label>
+        	<input type="text" name="pass" />
+	    </div>
+          
+	    <div>
+        	<input type="submit" name="Env" value="Enviar" />
+	    </div>
+	</form>
 
-#### Bolivia
-Universidad Católica Boliviana "San Pablo" - Carrera de Mecatrónica.
-#### Argentina
-Universidad Nacional San Juan - Ieee Student Branch.
-#### Costa Rica
-Tecnológico de Costa Rica - Ieee Electron Device Society.
-#### Perú
-Universidad Tecnológica del Perú - Student Chapters Ieee Robotics and Automation Society.
+    </body>
+</html>
